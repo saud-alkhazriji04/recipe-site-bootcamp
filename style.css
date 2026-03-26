@@ -1,0 +1,81 @@
+/* ── Layout ── */
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+/* ── Images ── */
+img {
+  max-width: 100%;
+  width: 480px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+
+/* Index page thumbnail images */
+ul li img {
+  width: 80px;
+  height: 60px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+  border-radius: 4px;
+}
+
+/* ── Recipe page sections ── */
+.image-container {
+  margin: 1rem 0;
+}
+
+.ingredients-container,
+.instructions-container {
+  margin: 1.5rem 0;
+}
+
+.ingredients-container ul,
+.instructions-container ol {
+  padding-left: 1.25rem;
+}
+
+.ingredients-container li,
+.instructions-container li {
+  margin-bottom: 0.4rem;
+  line-height: 1.6;
+}
+
+/* ── Prep time pill ── */
+p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* ── Nav back link ── */
+.back-link {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+/* ── Index cuisine sections ── */
+.cuisine-container {
+  margin-bottom: 2rem;
+}
+
+.cuisine-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cuisine-container li {
+  margin-bottom: 0.75rem;
+}
+
+.cuisine-container a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+}
